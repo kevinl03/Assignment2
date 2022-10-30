@@ -1,8 +1,9 @@
-package Mapsite;
+package totalmapsite;
 
-public interface AbstractDoor {
-    int roomNr = 0;
-    Mapsite northside;
-    Mapsite southside;
-
+public abstract class AbstractDoor implements Mapsite {
+    public void enter(){
+        System.out.print("Entering door");
+    }
+    protected AbstractRoom roomA;
+    protected AbstractRoom roomB;
 }

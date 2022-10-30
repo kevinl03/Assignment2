@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum Direction {
+public enum Direction {
+    NORTH,SOUTH,EAST,WEST
 }

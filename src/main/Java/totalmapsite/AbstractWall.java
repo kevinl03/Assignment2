@@ -1,4 +1,7 @@
-package Mapsite;
+package totalmapsite;
 
-public class AbstractWall {
+public class AbstractWall implements Mapsite {
+    public void enter(){
+        System.out.print("Cannot enter, hit a Wall");
+    }
 }
